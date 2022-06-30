@@ -13,45 +13,48 @@
   </head>
   <body>
     <main>
-      <div>
-        <div>
-          <img src="https://imgur.com/a/Z3Yr0sa"/>
+      <div class="container">
+        <div class="signUp-container">
+          <p class="signUp-text">Don't you have an account? </p>
+          <button class="signUp-button">SIGN UP</button>
         </div>
-        <div>
-            <div>
-              <p>Don't you have an account? </p>
-              <button>SIGN UP</button>
+
+        <!-- Header -->
+        <section class="login-page-header">
+          <h1 class="title">Welcome Back</h1>
+          <p class="subtitle">Login your account</p>
+        </section>
+
+        <!-- Body(主要內容) -->
+        <section class="login-page-body">
+          <form clalss="login-form">
+            <div class="login-form-row">
+              <h3 class="login-form-title">Username</h3>
+              <input class="login-form-input" type="text" name="name" placeholder="Your email">
             </div>
+            <div class="login-form-row">
+              <h3 class="login-form-title">Password</h3>
+              <input  class="login-form-input" type="text" name="name" placeholder="Your email">
+              <p class="warn-text">Forget password?</p>
+            </div>
+            <button class="login-button">Login</button>
+          </form>            
+        </section>
 
-            <!-- Header -->
-            <section class="login-page-header">
-              <h1>Welcome Back</h1>
-              <p>Login your account</p>
-            </section>
-
-            <!-- Body(主要內容) -->
-            <section class="login-page-body">
-              <div>
-                <h3>Username</h3>
-                <input type="text" name="name" placeholder="Your email">
-              </div>
-              <div>
-                <h3>Password</h3>
-                <input type="text" name="name" placeholder="Your email">
-                <p>Forget password?</p>
-              </div>
-              <button>Login</button>
-            </section>
-
-            <!-- Footer -->
-            <section class="login-page-footer">
-               <p>Login with</p>
-               <img>
-               <img>
-               <img>
-            </section>
-        </div>
-      </div>
+        <!-- Footer -->
+        <section class="login-page-footer">
+            <p class="login-text">Login with</p>
+            <a href="#">
+              <img class="icon" src="https://i.ibb.co/p1zPKjn/google.png" alt="google"/>
+            </a>
+            <a href="#">
+              <img class="icon" src="https://i.ibb.co/6b5dxS3/facebook.png"alt="facebook">
+            </a>
+            <a href="#">
+              <img class="icon" src="https://i.ibb.co/mDbNC2W/linkedin.png" alt="line">
+            </a>
+        </section>
+    </div>
     </main>
   </body>
 </html>
